@@ -24,29 +24,6 @@ O projeto permite **login, registro de usuários, criação e listagem de vagas 
 
 ---
 
-## 📁 Estrutura do Projeto
-
-/saas-net-angular
-│
-├── RecruiterManager.Api/ # Backend .NET
-│ ├── Controllers/
-│ ├── Models/
-│ ├── Data/
-│ ├── Program.cs
-│ └── RecruiterManager.Api.csproj
-│
-├── recruiter-manager-frontend/ # Frontend Angular
-│ ├── src/app/
-│ │ ├── pages/
-│ │ │ ├── login/
-│ │ │ ├── jobs/
-│ │ │ ├── job-create/
-│ │ │ └── dashboard/
-│ │ └── services/
-│ └── angular.json
-│
-└── README.md
-
 💡 Futuras Melhorias
 
 
