@@ -1,0 +1,10 @@
+<form (ngSubmit)="save()">
+    <input placeholder="Título" [(ngModel)]="job.title" name="title" required>
+    <textarea placeholder="Descrição" [(ngModel)]="job.description" name="description" required></textarea>
+    <input placeholder="Departamento" [(ngModel)]="job.department" name="department">
+
+    <div class="buttons-div">
+        <button type="submit">Salvar</button>
+        <button class="back" type="button" (click)="cancel()">Voltar</button>
+    </div>
+</form>

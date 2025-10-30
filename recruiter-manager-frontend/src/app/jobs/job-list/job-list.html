@@ -1,0 +1,9 @@
+<ul class="job-list">
+    <a routerLink="/jobs/create" class="create-link">Criar nova vaga</a>
+    <li *ngFor="let job of jobs" class="job-item">
+        <h3>{{ job.title }}</h3>
+        <p><strong>Departamento:</strong> {{ job.department }}</p>
+        <p><strong>Criado em:</strong> {{ formatDate(job.createdAt) }}</p>
+    </li>
+    <button class="logout-button" (click)="logout()">Logout</button>
+</ul>

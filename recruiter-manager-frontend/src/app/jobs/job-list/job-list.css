@@ -1,0 +1,68 @@
+/* Lista de jobs */
+.job-list {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.job-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    background-color: #fafafa;
+    transition: transform 0.1s;
+}
+
+.job-item:hover {
+    transform: translateY(-2px);
+}
+
+/* Títulos e infos */
+.job-item h3 {
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.job-item p {
+    margin: 4px 0;
+    color: #555;
+}
+
+/* Link criar nova vaga */
+.create-link {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 16px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.create-link:hover {
+    background-color: #218838;
+}
+
+/* Botão logout */
+.logout-button {
+    display: block;
+    margin: 20px 20px 0 0;
+    padding: 10px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
